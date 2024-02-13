@@ -1,3 +1,7 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+
 def check_ordered_tuple(t):
     # Проверка на упорядоченность по возрастанию
     if all(t[i] <= t[i + 1] for i in range(len(t) - 1)):
